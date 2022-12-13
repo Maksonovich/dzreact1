@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//header
+.header{
+    background-color: green;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+h2{
+    width: 400px;
+    font-size: 60px;
+}
+.main_inner-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid green;
+}
+.header_inner{
+    text-align: center;
+}
+.main_content{
+    margin-top: 40px;
+    display: flex;
+}
